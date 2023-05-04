@@ -1,0 +1,241 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+    @font-face {
+    font-family: 'Avenir Book';
+    src: url("./fonts/Avenir_Book.ttf"); /* File to be stored at your site */ 
+    }
+    </style>
+
+    <title>NewsPanda: Media Monitoring for Timely Conservation Action</title>
+    <base target="_blank">
+</head>
+
+<body>
+<br>
+<center>
+    <span align="center" style="font-size:36px">NewsPanda: Media Monitoring for Timely Conservation Action</span>
+    <br><br>
+</center>
+
+<table align="center" width="800px">
+<tbody>
+<tr>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://sedrickkeh.github.io/">Sedrick Scott Keh*</a><sup>1</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://ryanzshi.github.io/">Zheyuan Ryan Shi*</a><sup>1,4</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/david-patterson-wwf">David J. Patterson</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://scholar.google.com/citations?user=8mDlGTIAAAAJ&hl=en">Nirmal Bhagabati</a><sup>3</sup></span></center>
+    </td>
+</tr>
+<tr>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://scholar.google.com/citations?user=eenroZcAAAAJ&hl=en">Karun Dewan</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/areendran-gopala-3337784">Areendran Gopala</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/pablo-izquierdo">Pablo Izquierdo</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="200px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/debojyoti-mallick-80899b8b">Debojyoti Mallick</a><sup>2</sup></span></center>
+    </td>
+</tr>
+<tr>
+    <td align="center" width="300px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/ambikasharma2/">Ambika Sharma</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="300px">
+    <center><span style="font-size:16px"><a href="https://www.linkedin.com/in/pooja-shrestha-761170197/">Pooja Shrestha</a><sup>2</sup></span></center>
+    </td>
+    <td align="center" width="300px">
+    <center><span style="font-size:16px"><a href="https://feifang.info/">Fei Fang</a><sup>1</sup></span></center>
+    </td>
+</tr>
+</tbody>
+</table><br>
+
+<table align="center" width="700">
+<tbody>
+<tr>
+    <td align="center" width="350px">
+    <center><span style="font-size:14px"><sup>1</sup>Carnegie Mellon University</span></center>
+    </td>
+    <td align="center" width="350px">
+    <center><span style="font-size:14px"><sup>2</sup>World Wide Fund for Nature</span></center>
+    </td>
+</tr>
+<tr>
+    <td align="center" width="350px">
+    <center><span style="font-size:14px"><sup>3</sup>United States Agency for International Development</span></center>
+    </td>
+    <td align="center" width="350px">
+    <center><span style="font-size:14px"><sup>4</sup>98Connect</span></center>
+    </td>
+</tr>
+</tbody>
+</table><br>
+
+<table align="center" width="800">
+<tbody>
+<tr>
+    <td align="center" width="800px">
+    <center><span style="font-size:16px"><b>IAAI-23: 35th Annual Conference on Innovative Applications of Artificial Intelligence</b></span></center>
+    </td>
+</tr>
+</tbody>
+</table>
+
+<table align="center" width="300px">
+<tbody>
+<tr>
+    <td align="center" width="50px">
+    <center>
+        <br>
+        <span style="font-size:16px">
+        <a href="https://github.com/NewsPanda-WWF-CMU/weekly-pipeline"><b>[code]</b></a>
+        </span>
+    </center>
+    </td>
+
+    <td align="center" width="50px">
+    <center>
+        <br>
+        <span style="font-size:16px">
+        <a href="assets/IAAI2023-NewsPanda-slides.pdf"><b>[slides]</b></a>
+        </span>
+    </center>
+    </td>
+
+    <td align="center" width="50px">
+    <center>
+        <br>
+        <span style="font-size:16px">
+        <a href="https://arxiv.org/abs/2305.01503"><b>[paper]</b></a>
+        <br />
+        </span>
+    </center>
+    </td>
+</tr>
+</tbody>
+</table><br>
+
+<hr>
+    <center>
+        <h2>Abstract</h2>
+    </center>
+    <p align="justify">
+        Non-governmental organizations for environmental conservation 
+        have a significant interest in monitoring conservation-related 
+        media and getting timely updates about infrastructure construction 
+        projects as they may cause massive impact to key conservation areas. 
+        Such monitoring, however, is difficult and time-consuming. We 
+        introduce NewsPanda, a toolkit which automatically detects and 
+        analyzes online articles related to environmental conservation and 
+        infrastructure construction. We fine-tune a BERT-based model 
+        using active learning methods and noise correction algorithms 
+        to identify articles that are relevant to conservation and 
+        infrastructure construction. For the identified articles, we 
+        perform further analysis, extracting keywords and finding 
+        potentially related sources. NewsPanda has been successfully 
+        deployed by the World Wide Fund for Nature teams in the UK, 
+        India, and Nepal since February 2022. It currently monitors 
+        over 80,000 websites and 1,074 conservation sites across India 
+        and Nepal, saving more than 30 hours of human efforts weekly. 
+        We have now scaled it up to cover 60,000 conservation sites globally.
+    </p>
+    <center>
+    <p><img class="rounded"  src="./assets/gis_visualization_1.png" width="800px"></p>
+    <p><i>A screenshot of the NewsPanda articles visualized on WWF's dashboard</i></p>
+    </center>
+
+<hr>
+    <center>
+    <h2>Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eG0C3XnCKRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+
+<hr>
+    <center>
+    <h2>Results and Deployment</h2>
+    The NewsPanda pipeline runs on a weekly basis. Deployment has been ongoing since February 2022. 
+    The articles classified as relevant by NewsPanda are forwarded to WWF for visualization. These visualizations serve as helpful guides especially to the field teams of WWF.
+    These articles are also shared publicly to the NewsPanda Twitter account <a href="https://twitter.com/WildlifeNewsIND">@WildlifeNewsIND</a>.
+    <br><br>
+        <h3>WWF Dashboard</h3>
+        <p><img class="rounded"  src="assets/gis_visualization_2.png" width="100%"></p>
+        <p>
+        <b><i>A screenshot to the RIIAM Impact Analysis Tool of WWF. Red markers correspond to locations of articles flagged by NewsPanda as relevant to conservation and/or infrastructure.</i></b>
+        </p><br>
+
+        <h3>Social Media Module</h3>
+        <p><img class="rounded"  src="assets/twitter_sample.png" width="100%"></p>
+        <p>
+        <b><i>Sample tweets from the <a href="https://twitter.com/WildlifeNewsIND">NewsPanda Twitter account</a>, which periodically tweets links to conservation-related articles in India.</i></b>
+        </p>
+    </center>
+    <br>
+    <br>
+
+<hr>
+    <h2>Materials</h2>
+    <table>
+    <tr>
+        <td style=>        
+            <a href="https://arxiv.org/abs/2305.01503"><img style="border: 1px solid rgb(214, 21, 15); height: 162px; width: 124px;" src="assets/screenshot_paper.png"></a>
+        </td>
+        <td style="text-align:center;padding-left: 40px;">
+            <a href="assets/IAAI2023-NewsPanda-slides.pdf"><img style="border: 1px solid rgb(214, 21, 15); height: 162px; width: 124px;" src="assets/screenshot_slides.png"></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://arxiv.org/abs/2305.01503">Paper</a></td>
+        <td style="text-align:center;padding-left: 40px;"><a href="assets/IAAI2023-NewsPanda-slides.pdf">Slides</a></td>
+    </tr>
+    </table>      
+    <br>
+
+
+<hr>
+    <center> <h2>Citation</h2> </center>
+    <pre style="font-size: 10pt; text-align: left">
+@inproceedings{newspanda,
+    title={NewsPanda: Media Monitoring for Timely Conservation Action},
+    author={Sedrick Scott Keh* and Zheyuan Ryan Shi* and David J. Patterson and Nirmal Bhagabati and 
+Karun Dewan and Areendran Gopala and Pablo Izquierdo and Debojyoti Mallick and Ambika Sharma and
+Pooja Shrestha and Fei Fang},
+    booktitle={Conference on Innovative Applications of Artificial Intelligence (IAAI)},
+    year={2023}
+}
+    </pre>
+    <br>
+
+<hr>
+    <center> <h2>Acknowledgements</h2> </center>
+    <p align="justify">
+        We thank Mr. Pramod Neupane, Consultant-Sustainable Infrastructure at World Bank, 
+        for all his support during the initial phase of the project which includes project 
+        conceptualization, data curation, funding acquisition, project administration for 
+        WWF Nepal, and resources allocation at WWF Nepal. We also thank the communications 
+        team at WWF Nepal for providing the weekly news links. This work was supported in 
+        part by a Google AI for Social Good award, NSF grant IIS-2046640, a Siebel Scholarship 
+        and a Carnegie Mellon Presidential Fellowship.
+    </p>
+    <br>
+    <center>Website template edited from <a href="https://richzhang.github.io/colorization/">here</a></center>
+    <br>
+
+
+</body>
+</html>
